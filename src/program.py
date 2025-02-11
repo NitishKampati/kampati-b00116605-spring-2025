@@ -12,4 +12,4 @@ import tqdm
 from sklearn.model_selection import train_test_split
 import cv2
 from sklearn.utils import shuffle
-import tensorflow as 
+import tensorflow as tf
