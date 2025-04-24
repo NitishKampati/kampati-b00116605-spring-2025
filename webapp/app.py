@@ -1,6 +1,6 @@
-from flask import Flask, render_template, request
 import os
-from predictor import check
+from flask import Flask, render_template, request
+from predictor import check  
 
 app = Flask(__name__, static_folder="images")
 
